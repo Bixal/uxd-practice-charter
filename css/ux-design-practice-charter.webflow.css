@@ -50,6 +50,10 @@ li {
   margin-bottom: 0.5em;
 }
 
+.title-text.on-purple {
+  line-height: 1.3;
+}
+
 .purple {
   margin-top: 2em;
   margin-bottom: 1em;
@@ -60,6 +64,8 @@ li {
 
 .purple.hero-section {
   margin-top: 0em;
+  padding-top: 4em;
+  padding-bottom: 4em;
 }
 
 .on-purple {
@@ -67,7 +73,7 @@ li {
 }
 
 .on-purple.title-text {
-  line-height: 0.875;
+  line-height: 1.2;
 }
 
 .rich-text-block {
@@ -125,7 +131,7 @@ li {
 
 .quote {
   display: block;
-  margin: 1em auto;
+  margin: 2em auto 1em;
 }
 
 .hero-image {
@@ -138,6 +144,10 @@ li {
 }
 
 .block-quote {
+  max-width: 80%;
+  margin-right: auto;
+  margin-bottom: 2em;
+  margin-left: auto;
   border-left-color: #7d0096;
 }
 
@@ -156,23 +166,28 @@ li {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  min-height: 480px;
-  -webkit-box-orient: vertical;
+  min-height: 400px;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
-.image-2 {
+.footer-logo {
+  width: 280px;
+  margin-right: 2em;
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   -ms-grid-row-align: auto;
@@ -183,10 +198,29 @@ li {
   flex: 0 auto;
 }
 
+@media screen and (max-width: 991px) {
+  .title-text.on-purple {
+    line-height: 1.1;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .container {
     padding-right: 16px;
     padding-left: 16px;
+  }
+  .footer-logo {
+    margin-top: 2em;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .block-quote {
+    max-width: 100%;
   }
 }
 
