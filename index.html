@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Aug 25 2020 21:23:22 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Wed Sep 30 2020 21:05:07 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5f2338af0b383c3afce711d0" data-wf-site="5f2338af0b383c2688e711cf">
 <head>
   <meta charset="utf-8">
@@ -22,6 +22,11 @@
 </style>
 </head>
 <body>
+  <div class="draft-section">
+    <div class="draft-div">
+      <p class="p-draft">DRAFT</p>
+    </div>
+  </div>
   <div class="purple hero-section">
     <div class="w-container"><img src="images/img-b-hero-7.png" width="288" alt="" class="hero-image">
       <h1 class="on-purple title-text">This is UX Design at Bixal.</h1>
@@ -121,8 +126,7 @@
       <p><br></p>
       <p>As our understanding becomes less abstract and more tangible, <strong><em>our level of confidence increases</em></strong>.<br></p>
       <p>In the discovery and research iterations, this means talking to clients to better understand the goals of the project and talking to the people we’re designing for to better understand their needs. <br></p>
-      <p>In the design and development iterations, this means prototyping our hypotheses and validating our assumptions. </p>
-      <p><br></p>
+      <p>In the design and development iterations, this means prototyping our hypotheses and validating our assumptions. <br></p>
       <figure class="w-richtext-align-center w-richtext-figure-type-image">
         <div><img src="images/s_8F9BE50C145D8B35FF25F903C4C725D139FB2DE0E71ED2D29D77FF4B2ED098BA_1595863582417_image.png" alt=""></div>
         <figcaption><em>As things become more real, by talking to people and building things, we become confident</em></figcaption>
@@ -153,6 +157,19 @@
         <li><strong>Validation</strong>: are we comfortable moving forward?<br></li>
       </ul>
       <p>Each method includes a description of what the activity is, why to use it, and how to conduct it. <strong>This approach gives us a consistent, scalable framework for collaborating on and defining our key activities and deliverables over time as our practice grows and evolves.</strong></p>
+      <h3>Mapping to an agile project framework</h3>
+      <p>While the Playbook and Methods provide guidance on what to do on a project and when, they don&#x27;t describe exactly how to organize and track that work within an agile project. Here&#x27;s how we&#x27;re currently thinking about it:</p>
+      <ul role="list">
+        <li><strong>Plays as epics</strong> (e.g., Understand what people need): these describe the higher level goal of a major piece of a project, particularly in the earlier phases before we&#x27;ve decided what to build.</li>
+        <li><strong>Method &quot;whys&quot; as user stories</strong> (e.g., Gain insights from users about how to organize content in an intuitive way): instead of a task that simply says &quot;card sorting,&quot; this describes the need in terms of value to the customer.</li>
+        <li><strong>Method &quot;hows&quot; as sub-tasks</strong> (e.g., Set up the study, Recruit users, Summarize results): these are the atomic steps of the activity that can be tracked to better plan and update progress throughout a sprint cycle.</li>
+      </ul>
+      <p>This approach helps avoid practice jargon and makes it more clear to all stakeholders (project team, practice leads, clients) what we&#x27;re actually doing and what to expect in terms of timing and output.</p>
+      <p>Here&#x27;s an example of how this might be structured in a Jira project:</p>
+      <figure class="w-richtext-align-center w-richtext-figure-type-image">
+        <div><img src="images/mapping_to_agile_project.png" loading="lazy" alt=""></div>
+        <figcaption><em>Organizing plays and methods into epics, stories, and sub-tasks</em></figcaption>
+      </figure>
     </div>
   </div>
   <div class="purple">
@@ -191,17 +208,24 @@
         <li>Technical understanding</li>
         <li>Human-centered and agile practices</li>
       </ul>
+      <h3>Intentions</h3>
+      <p>Also, as a part of our personal and professional growth within the practice and our careers, we establish annual intentions, which are described in more detail in the <a href="https://bixal.github.io/bixal-uxd-team-handbook/humans/#intentions--capabilities">UX Design Team Handbook</a>.</p>
     </div>
   </div>
   <div id="collaboration" class="light-green">
     <div class="container w-container">
       <h2 class="on-light-green title-text">Collaboration</h2>
-      <p class="sub-title on-light-green">How do we work with other practice areas on a project?</p>
+      <p class="sub-title on-light-green">How do we work with other practice areas on a project? And each other?</p>
     </div>
   </div>
   <div class="container w-container">
     <div class="rich-text-block w-richtext">
       <p>In the work we do for clients, we don’t think about it in terms of practices. These are same silos we advise our clients not to create. Nor do we think about it in strict, linear phases. This is the same “waterfall” approach we advise our clients not to wade through. Instead, we think about our collaboration in terms of the whole product we’re delivering and who does what at different levels of <em>product zoom</em>.</p>
+      <p>These levels are defined as <strong>Strategy, Structure, and Surface</strong> (along with The Big Picture) by Peter Merholz and Kristin Skinner in <em>Org Design for Design Orgs</em>. At each level, different members of the team are focused on different aspects of the overall product.</p>
+      <figure class="w-richtext-align-center w-richtext-figure-type-image">
+        <div><img src="images/levels-of-product-zoom.png" loading="lazy" alt=""></div>
+        <figcaption><em>Levels of product zoom from </em><a href="https://orgdesignfordesignorgs.com/2018/10/16/the-most-important-role-in-your-design-org-team-lead/"><em>Org Design for Design Orgs</em></a></figcaption>
+      </figure>
       <h3>UX Design</h3>
       <p>The UX Design practice is involved at all levels of product zoom. This is what our expectations are of collaboration with each of the practices at each level.</p>
       <h3>Strategy</h3>
@@ -225,6 +249,15 @@
       </ul>
       <h3>Learning</h3>
       <p>The Learning Practice is mentioned separately here because it’s a completely separate “product line,” with its own levels of zoom for each product it delivers. A Learning product also entails strategy, structure, and surface, but the team makeup is slightly different because of the specialized nature of these products. Instead of organizational goals, there are learning objectives. And the Instructional Designers essentially fulfill the role of UX Designer in this context.</p>
+      <h3>Collaborating with each other</h3>
+      <p>We have established a variety of activities to encourage different aspects of knowledge sharing and collaboration across the UX Design Team. Most of these are geared towards increasing visibility and awareness of what the others are doing since we not frequently working in projects together.</p>
+      <ul role="list">
+        <li><strong>Daily check-ins</strong>: Everyday, we share a quick note on Teams about what we worked on that day (preferably with links) and what we intend to work on tomorrow.</li>
+        <li><strong>Design Duos</strong>: About every quarter, we establish rotating pairs that meet weekly to do more in-depth sharing of their project work in order to get more substantive feedback.</li>
+        <li><strong>Design Team sync up</strong>: Every week, we meet with the &quot;full Design Team&quot; as part of a larger Design Community of Practice at Bixal. This includes the visual designers, the content strategists, and anyone else who wants to join.</li>
+        <li><strong>Manager one-on-ones</strong>: Since establishing Design Duos, we have moved to blocking off time for office hours to schedule one-on-ones on an ad-hoc basis (as opposed to a set weekly time).</li>
+        <li><strong>Monthly workshops</strong>: About once a month, we book an extended session (usually 2 hours) to bring the UX Design Team together for more in-depth discussion and working sessions on issues and topics affecting our practice.</li>
+      </ul>
     </div>
   </div>
   <div class="maroon">
@@ -273,8 +306,15 @@
     </div>
   </div>
   <div class="container w-container">
-    <div href="https://github.com/Bixal/uxd-practice-charter/issues" class="rich-text-block w-richtext">
+    <div class="rich-text-block w-richtext">
       <p>This charter is a living, transparent document and is open to feedback. You can leave feedback here as a <a href="https://github.com/Bixal/uxd-practice-charter/issues">Github issue</a>.</p>
+      <p>These are the primary resources mentioned in this charter:</p>
+      <ul role="list">
+        <li><a href="https://bixal.github.io/bixal-uxd-team-handbook/"><strong>UX Design Team Handbook</strong></a></li>
+        <li><a href="https://bixal.github.io/methods/"><strong>Bixal Methods</strong></a></li>
+        <li><a href="https://playbook.cio.gov/"><strong>Digital Services Playbook</strong></a></li>
+        <li><a href="https://github.com/Bixal/bixal-uxd-team-handbook/wiki"><strong>Team Wiki</strong></a></li>
+      </ul>
     </div>
   </div>
   <div class="maroon">
