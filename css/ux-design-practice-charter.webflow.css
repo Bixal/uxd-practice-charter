@@ -198,6 +198,29 @@ li {
   flex: 0 auto;
 }
 
+.draft-section {
+  background-color: #dfe1e2;
+}
+
+.draft-div {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.paragraph {
+  margin-bottom: 0em;
+  text-align: center;
+}
+
+.p-draft {
+  margin-bottom: 0em;
+  color: #55052a;
+  font-weight: 700;
+  text-align: center;
+}
+
 @media screen and (max-width: 991px) {
   .title-text.on-purple {
     line-height: 1.1;
