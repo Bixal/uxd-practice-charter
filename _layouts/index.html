@@ -33,19 +33,14 @@
       <p class="sub-title on-purple">A charter for the UX Design practice.</p>
     </div>
   </div>
-  <div class="container w-container">
-    <div class="rich-text-block intro-text w-richtext">
-      <p>The purpose of this charter is to define the practice of User Experience (UX) Design, as it exists today at Bixal. The content is based on a number of discussions and workshop sessions over the past year, including the most recent practice area charter activity in June 2020.<br></p>
-      <p>The charter contains the following sections:</p>
-      <ul role="list">
-        <li><a href="#approach-and-mindset"><strong>Approach &amp; mindset</strong></a>: The why. Before we jump into activities and outputs, we set the stage for what the UX Design practice is all about and how it relates to HCD and CX.</li>
-        <li><a href="#activities-and-outputs"><strong>Activities &amp; outputs</strong></a>: What we do and how we do it.</li>
-        <li><a href="#roles"><strong>Roles</strong></a>: Who we are and how we define our roles, skills, and role levels.</li>
-        <li><a href="#collaboration"><strong>Collaboration</strong></a>: The other practices we work with and our expectations for interaction.</li>
-        <li><a href="#measures-of-success"><strong>Measure of success</strong></a>: The yardstick. How we might measure and assess our performance.</li>
-      </ul>
-    </div>
-  </div>
+
+  <!-- Introduction -->
+  {% assign introduction_section = site.sections | where: "title", "Introduction" %}
+  {% for section in introduction_section %}
+    {{ section }}
+  {% endfor %}
+  <!-- Introduction -->
+  
   <div class="light-green">
     <div class="container w-container">
       <h2 id="approach-and-mindset" class="on-light-green title-text">Approach &amp; Mindset</h2>
