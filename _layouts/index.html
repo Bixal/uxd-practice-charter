@@ -47,7 +47,14 @@
     {{ section }}
   {% endfor %}
   <!-- Approach & Mindset -->
-  
+
+  <!-- Activities & Outputs -->
+  {% assign activities_section = site.sections | where: "title", "Activities & Outputs" %}
+  {% for section in activities_section %}
+    {{ section }}
+  {% endfor %}
+  <!-- Activities & Outputs -->
+
   <div class="maroon">
     <div class="container w-container">
       <h2 id="activities-and-outputs" class="on-maroon title-text">Activities &amp; Outputs</h2>
