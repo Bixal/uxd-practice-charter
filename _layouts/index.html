@@ -64,54 +64,13 @@
   {% endfor %}
   <!-- Roles -->
 
-  <div id="collaboration" class="light-green">
-    <div class="container w-container">
-      <h2 class="on-light-green title-text">Collaboration</h2>
-      <p class="sub-title on-light-green">How do we work with other practice areas on a project? And each other?</p>
-    </div>
-  </div>
-  <div class="container w-container">
-    <div class="rich-text-block w-richtext">
-      <p>In the work we do for clients, we don’t think about it in terms of practices. These are same silos we advise our clients not to create. Nor do we think about it in strict, linear phases. This is the same “waterfall” approach we advise our clients not to wade through. Instead, we think about our collaboration in terms of the whole product we’re delivering and who does what at different levels of <em>product zoom</em>.</p>
-      <p>These levels are defined as <strong>Strategy, Structure, and Surface</strong> (along with The Big Picture) by Peter Merholz and Kristin Skinner in <em>Org Design for Design Orgs</em>. At each level, different members of the team are focused on different aspects of the overall product.</p>
-      <figure class="w-richtext-align-center w-richtext-figure-type-image">
-        <div><img src="images/levels-of-product-zoom.png" loading="lazy" alt=""></div>
-        <figcaption><em>Levels of product zoom from </em><a href="https://orgdesignfordesignorgs.com/2018/10/16/the-most-important-role-in-your-design-org-team-lead/"><em>Org Design for Design Orgs</em></a></figcaption>
-      </figure>
-      <h3>UX Design</h3>
-      <p>The UX Design practice is involved at all levels of product zoom. This is what our expectations are of collaboration with each of the practices at each level.</p>
-      <h3>Strategy</h3>
-      <p>This level includes the vision and purpose of the project, along with with planning and constraints.</p>
-      <ul role="list">
-        <li><strong>Delivery</strong>: understanding scope and constraints, encouraging an agile mindset, providing access to relevant stakeholders, managing client expectations.</li>
-        <li><strong>Content Strategy</strong>: understanding the audience and their needs, understanding the domain.</li>
-        <li><strong>Data Analytics</strong>: understanding the audience and their needs around <em>information accessibility.</em> (What decisions do they need to make? What do they need to know to make those decisions?)</li>
-      </ul>
-      <h3>Structure</h3>
-      <p>This level includes the foundational elements of information architecture, user flows, brand language, and design systems.</p>
-      <ul role="list">
-        <li><strong>Content Strategy</strong>: figuring out how to structure content for audience needs (including information architecture, taxonomy, language usage).</li>
-        <li><strong>Development</strong>: understanding the design intent and the technical and business constraints and how we can get to the best solution possible.</li>
-      </ul>
-      <h3>Surface</h3>
-      <p>This level includes the tangible elements of typography, color, layout, UI, and interactions.</p>
-      <ul role="list">
-        <li><strong>Visual Design</strong>: ensuring the aesthetic considerations are in harmony with the <em>usable</em> and <em>delightful</em> levels of the UX Hierarchy of Needs.</li>
-        <li><strong>Development</strong>: ensuring that design intent and quality is being maintained throughout the interface layer of the product.</li>
-      </ul>
-      <h3>Learning</h3>
-      <p>The Learning Practice is mentioned separately here because it’s a completely separate “product line,” with its own levels of zoom for each product it delivers. A Learning product also entails strategy, structure, and surface, but the team makeup is slightly different because of the specialized nature of these products. Instead of organizational goals, there are learning objectives. And the Instructional Designers essentially fulfill the role of UX Designer in this context.</p>
-      <h3>Collaborating with each other</h3>
-      <p>We have established a variety of activities to encourage different aspects of knowledge sharing and collaboration across the UX Design Team. Most of these are geared towards increasing visibility and awareness of what the others are doing since we not frequently working in projects together.</p>
-      <ul role="list">
-        <li><strong>Daily check-ins</strong>: Everyday, we share a quick note on Teams about what we worked on that day (preferably with links) and what we intend to work on tomorrow.</li>
-        <li><strong>Design Duos</strong>: About every quarter, we establish rotating pairs that meet weekly to do more in-depth sharing of their project work in order to get more substantive feedback.</li>
-        <li><strong>Design Team sync up</strong>: Every week, we meet with the &quot;full Design Team&quot; as part of a larger Design Community of Practice at Bixal. This includes the visual designers, the content strategists, and anyone else who wants to join.</li>
-        <li><strong>Manager one-on-ones</strong>: Since establishing Design Duos, we have moved to blocking off time for office hours to schedule one-on-ones on an ad-hoc basis (as opposed to a set weekly time).</li>
-        <li><strong>Monthly workshops</strong>: About once a month, we book an extended session (usually 2 hours) to bring the UX Design Team together for more in-depth discussion and working sessions on issues and topics affecting our practice.</li>
-      </ul>
-    </div>
-  </div>
+  <!-- Collaboration -->
+  {% assign collaboration_section = site.sections | where: "title", "Collaboration" %}
+  {% for section in collaboration_section %}
+    {{ section }}
+  {% endfor %}
+  <!-- Collaboration -->
+
   <div class="maroon">
     <div class="container w-container">
       <h2 id="measures-of-success" class="on-maroon title-text">Measures of success</h2>
