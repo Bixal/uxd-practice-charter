@@ -55,69 +55,6 @@
   {% endfor %}
   <!-- Activities & Outputs -->
 
-  <div class="maroon">
-    <div class="container w-container">
-      <h2 id="activities-and-outputs" class="on-maroon title-text">Activities &amp; Outputs</h2>
-      <p class="sub-title on-maroon">How do we do what we do? And what are the outputs of those activities?</p>
-    </div>
-  </div>
-  <div class="container w-container">
-    <div class="rich-text-block w-richtext">
-      <h3>Agile mindset and levels of confidence</h3>
-      <p>With an agile mindset, the way we conduct our practice is less about following a prescribed set of steps than <strong><em>working iteratively from a point of more abstraction to a point of more tangibility</em></strong>.<br></p>
-      <figure class="w-richtext-align-center w-richtext-figure-type-image">
-        <div><img src="images/s_8F9BE50C145D8B35FF25F903C4C725D139FB2DE0E71ED2D29D77FF4B2ED098BA_1595863115693_image.png" alt=""></div>
-        <figcaption><em>Over time, we move from more abstract assumptions and solutions to more tangible ones</em></figcaption>
-      </figure>
-      <p><br></p>
-      <p>As our understanding becomes less abstract and more tangible, <strong><em>our level of confidence increases</em></strong>.<br></p>
-      <p>In the discovery and research iterations, this means talking to clients to better understand the goals of the project and talking to the people we’re designing for to better understand their needs. <br></p>
-      <p>In the design and development iterations, this means prototyping our hypotheses and validating our assumptions. <br></p>
-      <figure class="w-richtext-align-center w-richtext-figure-type-image">
-        <div><img src="images/s_8F9BE50C145D8B35FF25F903C4C725D139FB2DE0E71ED2D29D77FF4B2ED098BA_1595863582417_image.png" alt=""></div>
-        <figcaption><em>As things become more real, by talking to people and building things, we become confident</em></figcaption>
-      </figure>
-      <p>As we learn more about the people we’re working with and designing for, our level of confidence about what to do increases. And as we prototype solutions and test them, our level of confidence about whether we’re on the right track increases further.</p>
-      <h3>The Playbook</h3>
-      <p>The framework we use to communicate and validate this approach is the <a target="_blank" href="https://playbook.cio.gov/">Digital Services Playbook</a> from the U.S. Digital Service. The first three plays constitute a <strong>“definition of done”</strong> for major components of a project.<br></p>
-      <ol start="1" role="list">
-        <li><a target="_blank" href="https://playbook.cio.gov/#play1">Understand what people need</a></li>
-        <li><a target="_blank" href="https://playbook.cio.gov/#play2">Address the whole experience, from start to finish</a></li>
-        <li><a href="https://playbook.cio.gov/#play3" target="_blank">Make it simple and intuitive</a><br></li>
-      </ol>
-      <p>Do we know who the primary users are? Have we articulated what needs the service will address? If yes, we can proceed with a higher level of confidence. If no, we should do another round of research activities to answer those questions.<br></p>
-      <p>Are we using language that is familiar to the primary audience? Are we using language and design consistently throughout the service? If yes, we can proceed with a higher level of confidence. If no, we should do another round of design exploration and test again.</p>
-      <p>Sometimes these questions may already have answers. Not all projects start at the same point or run for the same length of time. And sometimes we&#x27;re not the only team working on a project. By approaching a project with questions to answer instead of steps to check off, we can adapt to different situations.</p>
-      <h3>The Methods<br></h3>
-      <p>We have a collection of activities and tools we call the <a href="https://bixal.github.io/methods/" target="_blank">Bixal Methods</a> that we’ve begun adapting from the original 18F version. Depending on what questions we have at a given point within a project, we choose an appropriate set of methods to conduct within an iteration of research or design.<br></p>
-      <figure class="w-richtext-align-center w-richtext-figure-type-image">
-        <div><img src="images/s_8F9BE50C145D8B35FF25F903C4C725D139FB2DE0E71ED2D29D77FF4B2ED098BA_1595865046058_image.png" alt=""></div>
-        <figcaption><em>Questions and methods from a research iteration plan</em></figcaption>
-      </figure>
-      <p>Instead of mapping the methods to specific “phases” of a project, they’re organized by the “goal” at a particular point in the project in terms of the questions you&#x27;re trying to answer.</p>
-      <ul role="list">
-        <li><strong>Awareness</strong>: what is this project all about?</li>
-        <li><strong>Observation</strong>: what are people doing today?</li>
-        <li><strong>Interpretation</strong>: what did we learn from talking to and observing people?</li>
-        <li><strong>Exploration</strong>: what might we do based on what we learned?</li>
-        <li><strong>Validation</strong>: are we comfortable moving forward?<br></li>
-      </ul>
-      <p>Each method includes a description of what the activity is, why to use it, and how to conduct it. <strong>This approach gives us a consistent, scalable framework for collaborating on and defining our key activities and deliverables over time as our practice grows and evolves.</strong></p>
-      <h3>Mapping to an agile project framework</h3>
-      <p>While the Playbook and Methods provide guidance on what to do on a project and when, they don&#x27;t describe exactly how to organize and track that work within an agile project. Here&#x27;s how we&#x27;re currently thinking about it:</p>
-      <ul role="list">
-        <li><strong>Plays as epics</strong> (e.g., Understand what people need): these describe the higher level goal of a major piece of a project, particularly in the earlier phases before we&#x27;ve decided what to build.</li>
-        <li><strong>Method &quot;whys&quot; as user stories</strong> (e.g., Gain insights from users about how to organize content in an intuitive way): instead of a task that simply says &quot;card sorting,&quot; this describes the need in terms of value to the customer.</li>
-        <li><strong>Method &quot;hows&quot; as sub-tasks</strong> (e.g., Set up the study, Recruit users, Summarize results): these are the atomic steps of the activity that can be tracked to better plan and update progress throughout a sprint cycle.</li>
-      </ul>
-      <p>This approach helps avoid practice jargon and makes it more clear to all stakeholders (project team, practice leads, clients) what we&#x27;re actually doing and what to expect in terms of timing and output.</p>
-      <p>Here&#x27;s an example of how this might be structured in a Jira project:</p>
-      <figure class="w-richtext-align-center w-richtext-figure-type-image">
-        <div><img src="images/mapping_to_agile_project.png" loading="lazy" alt=""></div>
-        <figcaption><em>Organizing plays and methods into epics, stories, and sub-tasks</em></figcaption>
-      </figure>
-    </div>
-  </div>
   <div class="purple">
     <div class="container w-container">
       <h2 id="roles" class="on-purple title-text">Roles</h2>
