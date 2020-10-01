@@ -3,7 +3,9 @@ title: Introduction
 layout: introduction
 ---
 
-The purpose of this charter is to define the practice of User Experience (UX) Design, as it exists today at Bixal. The content is based on a number of discussions and workshop sessions over the past year, including the most recent practice area charter activity in June 2020.  
+<!--This content is pulled from the "globals" data file so it can be reused.-->
+{% assign globals = site.data.globals %}
+{{ globals.meta-description.content }}
 
 The charter contains the following sections:
 

@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
 <!--  Last Published: Wed Sep 30 2020 21:05:07 GMT+0000 (Coordinated Universal Time)  -->
+{% assign globals = site.data.globals %}
 <html data-wf-page="5f2338af0b383c3afce711d0" data-wf-site="5f2338af0b383c2688e711cf">
 <head>
   <meta charset="utf-8">
-  <title>UX Design Practice Charter</title>
+  <title>{{ globals.title.content }}</title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
+  <meta content="{{ globals.meta-description.content }}" name="description">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/ux-design-practice-charter.webflow.css" rel="stylesheet" type="text/css">
@@ -29,8 +31,8 @@
   </div>
   <div class="purple hero-section">
     <div class="w-container"><img src="images/img-b-hero-7.png" width="288" alt="" class="hero-image">
-      <h1 class="on-purple title-text">This is UX Design at Bixal.</h1>
-      <p class="sub-title on-purple">A charter for the UX Design practice.</p>
+      <h1 class="on-purple title-text">{{ globals.hero.content }}</h1>
+      <p class="sub-title on-purple">{{ globals.subhero.content }}</p>
     </div>
   </div>
 
