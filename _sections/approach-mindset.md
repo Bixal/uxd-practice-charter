@@ -1,6 +1,7 @@
 ---
 title: Approach & Mindset
-layout: approach-mindset
+layout: section
+slug: approach-and-mindset
 subtitle: How do we think and talk about our practice?
 color: light-green
 # options: light-green, maroon, purple
