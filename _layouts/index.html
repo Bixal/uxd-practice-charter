@@ -57,46 +57,13 @@
   {% endfor %}
   <!-- Activities & Outputs -->
 
-  <div class="purple">
-    <div class="container w-container">
-      <h2 id="roles" class="on-purple title-text">Roles</h2>
-      <p class="sub-title on-purple">How do we organize ourselves around these activities?</p>
-    </div>
-  </div>
-  <div class="container w-container">
-    <div class="rich-text-block w-richtext">
-      <p>The UX Design Team currently consists of two primary roles: UX Designers and UX Researchers. More detailed information on each role — and the related skills and levels — is available in our <a target="_blank" href="https://bixal.github.io/bixal-uxd-team-handbook/capability-framework/about-this-framework.html">Capability Framework</a>.</p>
-      <h3>UX Designer</h3>
-      <p>UX designers collaborate with the whole team (client + delivery) to create and refine products and services that meet both audience needs and organizational objectives and are enjoyable to use. They consider both the end-to-end flow of the whole experience and individual touchpoints throughout the customer journey.<br></p>
-      <p>This role includes the following skills we look for and foster in our teammates:</p>
-      <ul role="list">
-        <li>Agile mindset</li>
-        <li>Communication</li>
-        <li>Team collaboration</li>
-        <li>Evidence- and context-based design</li>
-        <li>Working within constraints</li>
-        <li>Leadership and guidance</li>
-        <li>Prototyping</li>
-        <li>Strategic thinking</li>
-        <li>Human-centered</li>
-        <li>Inclusive design mindset</li>
-      </ul>
-      <h3>UX Researcher</h3>
-      <p>UX researchers conduct research activities with actual users and communicate findings to help the whole team (client + delivery) develop a deep, shared understanding of the people who use their products and services. This research informs strategy, content, and design to reduce risk and increase the likelihood that implementation will meet audience expectations and achieve organizational objectives.<br></p>
-      <p>This role includes the following skills we look for and foster in our teammates:</p>
-      <ul role="list">
-        <li>Analysis and synthesis</li>
-        <li>Inclusive research</li>
-        <li>Research skills</li>
-        <li>Society and technology</li>
-        <li>Strategic insight</li>
-        <li>Technical understanding</li>
-        <li>Human-centered and agile practices</li>
-      </ul>
-      <h3>Intentions</h3>
-      <p>Also, as a part of our personal and professional growth within the practice and our careers, we establish annual intentions, which are described in more detail in the <a href="https://bixal.github.io/bixal-uxd-team-handbook/humans/#intentions--capabilities">UX Design Team Handbook</a>.</p>
-    </div>
-  </div>
+  <!-- Roles -->
+  {% assign roles_section = site.sections | where: "title", "Roles" %}
+  {% for section in roles_section %}
+    {{ section }}
+  {% endfor %}
+  <!-- Roles -->
+
   <div id="collaboration" class="light-green">
     <div class="container w-container">
       <h2 class="on-light-green title-text">Collaboration</h2>
