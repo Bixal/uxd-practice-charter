@@ -1,6 +1,7 @@
 ---
 title: Approach & Mindset
-layout: approach-mindset
+layout: section
+slug: approach-and-mindset
 subtitle: How do we think and talk about our practice?
 color: light-green
 # options: light-green, maroon, purple
@@ -10,9 +11,9 @@ color: light-green
 
 What is the why, how, and what of the UX Design practice?
 
--   **Why we do what we do**: We envision a world where everybody who uses the products and services we create or improve gets what they need and enjoys doing it.
--   **How we do it**: We take a human-centered approach to design. That means we seek to deeply understand the people we’re designing for by talking to them and observing what they do and keeping them at the center of the creation process.
--   **What we do**: We apply the practices of UX design (including research, interpretation, ideation, prototyping, etc.) alongside our teammates and stakeholders to co-create useful, usable, and delightful experiences.
+-  **Why we do what we do**: We envision a world where everybody who uses the products and services we create or improve gets what they need and enjoys doing it.
+-  **How we do it**: We take a human-centered approach to design. That means we seek to deeply understand the people we’re designing for by talking to them and observing what they do and keeping them at the center of the creation process.
+-  **What we do**: We apply the practices of UX design (including research, interpretation, ideation, prototyping, etc.) alongside our teammates and stakeholders to co-create useful, usable, and delightful experiences.
 
 ### The hierarchy of UX needs
 
@@ -20,9 +21,9 @@ This is a slight variation on Aarron Walter’s “hierarchy of needs of users.�
 
 {% include image-hierarchy-of-needs.html %}
 
--   **Useful**: the foundation. We’re creating something to fulfill some purpose. If it’s not meeting a human need, it doesn’t matter how well it works or how nice it looks.
--   **Usable**: the table stakes. It has to work as expected and be as inclusive as possible for people of varying degrees of experience and abilities.
--   **Delightful**: the icing. We want to help people get things done, but we also want them to enjoy doing it. Even filling out a form can be pleasantly surprising if you put the extra effort into it.
+-  **Useful**: the foundation. We’re creating something to fulfill some purpose. If it’s not meeting a human need, it doesn’t matter how well it works or how nice it looks.
+-  **Usable**: the table stakes. It has to work as expected and be as inclusive as possible for people of varying degrees of experience and abilities.
+-  **Delightful**: the icing. We want to help people get things done, but we also want them to enjoy doing it. Even filling out a form can be pleasantly surprising if you put the extra effort into it.
 
 ### The experience design landscape
 
