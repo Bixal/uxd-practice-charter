@@ -7,7 +7,7 @@ color: purple
 # options: light-green, maroon, purple
 ---
 
-This charter is a living, transparent document and is open to feedback. You can leave feedback here as a [Github issue](https://github.com/Bixal/uxd-practice-charter/issues).
+This charter is a living, transparent document and is open to feedback. If you're part of the Bixal organization, you can [leave feedback using this form](https://forms.office.com/Pages/ResponsePage.aspx?id=UIFEMerVDk6_Y1G-BXMG0zqbyzpo-WlPtfQBPsrL_3VUME1JSEYwOURGTDJWRTNEQTUxWUxDSVYxWS4u). Otherwise, you can create a new [Github issue](https://github.com/Bixal/uxd-practice-charter/issues).
 
 These are the primary resources mentioned in this charter:
 
