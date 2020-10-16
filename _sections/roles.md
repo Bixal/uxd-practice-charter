@@ -7,7 +7,7 @@ color: purple
 # options: light-green, maroon, purple
 ---
 
-The UX Design Team currently consists of two primary roles: UX Designers and UX Researchers. More detailed information on each role — and the related skills and levels — is available in our [Capability Framework](https://bixal.github.io/bixal-uxd-team-handbook/capability-framework/about-this-framework.html).
+The UX Design Team currently consists of two primary roles: UX Designers and UX Researchers. More detailed information on each role — and the related skills and levels — is available in our [Capability Framework](https://bixal.github.io/bixal-uxd-team-handbook/capabilities).
 
 ### UX Designer
 
